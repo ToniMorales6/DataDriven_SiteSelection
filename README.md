@@ -42,8 +42,8 @@ pip3 install seaborn
 - [mapa_con_ZonasVerdes.html](https://tonimorales6.github.io/DataDriven_SiteSelection/%C3%81reas%20Verdes/Mapas/mapa_con_ZonasVerdes.html)
 
 ### Menores de 3 Años
-- [marker_map_with_numbers_white.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Menores%20de%203%20a%C3%B1os/Mapas/marker_map_with_numbers_white.html)
-
 - [heat_map_score_menores3.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Menores%20de%203%20a%C3%B1os/Mapas/heat_map_score_menores3.html)
 
 - [heat_map2_score_menores3.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Menores%20de%203%20a%C3%B1os/Mapas/heat_map2_score_menores3.html)
+
+- [marker_map_with_numbers_white.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Menores%20de%203%20a%C3%B1os/Mapas/marker_map_with_numbers_white.html)
