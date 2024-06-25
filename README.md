@@ -1,8 +1,8 @@
-# DataDriven_SiteSelection
+# Data Driven Site Selection
 
 ## Librerias requeridas
 
-Para instalar las librerias necesarias, puedes los siguientes siguiente comandos:
+Para instalar las librerias necesarias, ejectura los siguientes comandos en tu consola con Python instalado:
 
 ```bash
 pip3 install geopandas
