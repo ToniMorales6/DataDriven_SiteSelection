@@ -1,5 +1,24 @@
 # DataDriven_SiteSelection
 
+## Librerias requeridas
+
+## Instalación de Dependencias
+
+Para instalar las dependencias necesarias, puedes los siguientes siguiente comandos:
+
+```bash
+pip3 install geopandas
+pip3 install shapely
+pip3 install numpy
+pip3 install matplotlib
+pip3 install pyproj
+pip3 install geopy
+pip3 install pandas
+pip3 install folium
+pip3 install plotly
+pip3 install scikit-learn
+pip3 install seaborn
+```
 ## Enlaces a los Mapas
 
 ### Transporte público
