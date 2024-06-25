@@ -1,0 +1,3088 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a4084c916f8b63dafa07aea66705d9b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a4084c916f8b63dafa07aea66705d9b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a4084c916f8b63dafa07aea66705d9b = L.map(
+                "map_4a4084c916f8b63dafa07aea66705d9b",
+                {
+                    center: [41.39975832621099, 2.1507487836145938],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_050a684b883bb087a1c654a4adf94b9d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_050a684b883bb087a1c654a4adf94b9d.addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+            var marker_b50e86d1ca2f679a0b9e971c841f5cf4 = L.marker(
+                [41.42102913266343, 2.063315363155772],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b51118129f53d0911bce16b71d5fce95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5259a5ede31104f68c37e5c095cbcbd2 = $(`<div id="html_5259a5ede31104f68c37e5c095cbcbd2" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_b51118129f53d0911bce16b71d5fce95.setContent(html_5259a5ede31104f68c37e5c095cbcbd2);
+            
+        
+
+        marker_b50e86d1ca2f679a0b9e971c841f5cf4.bindPopup(popup_b51118129f53d0911bce16b71d5fce95)
+        ;
+
+        
+    
+    
+            marker_b50e86d1ca2f679a0b9e971c841f5cf4.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ac21a26d3d975f88df3c74720bb7a15 = L.marker(
+                [41.43048282442007, 2.063315363155772],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_5e3b437908552cdd5fbd50f03e850164 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bea7ab02c063523317e2e02019c5efc8 = $(`<div id="html_bea7ab02c063523317e2e02019c5efc8" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_5e3b437908552cdd5fbd50f03e850164.setContent(html_bea7ab02c063523317e2e02019c5efc8);
+            
+        
+
+        marker_9ac21a26d3d975f88df3c74720bb7a15.bindPopup(popup_5e3b437908552cdd5fbd50f03e850164)
+        ;
+
+        
+    
+    
+            marker_9ac21a26d3d975f88df3c74720bb7a15.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b971bf3be480a9a2211e50bd79c0f464 = L.marker(
+                [41.41157544090679, 2.074297338672339],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_5579cd972df165dcb27325b67705ae38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41b4df663d1cb3abe3bb8049d14263a0 = $(`<div id="html_41b4df663d1cb3abe3bb8049d14263a0" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_5579cd972df165dcb27325b67705ae38.setContent(html_41b4df663d1cb3abe3bb8049d14263a0);
+            
+        
+
+        marker_b971bf3be480a9a2211e50bd79c0f464.bindPopup(popup_5579cd972df165dcb27325b67705ae38)
+        ;
+
+        
+    
+    
+            marker_b971bf3be480a9a2211e50bd79c0f464.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08db036133d67bc25f2b9b20dd48df68 = L.marker(
+                [41.43048282442007, 2.074297338672339],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_50e02d91337a5ba96daea3e68fd9b053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ade97c95b322cf38227331628c136077 = $(`<div id="html_ade97c95b322cf38227331628c136077" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_50e02d91337a5ba96daea3e68fd9b053.setContent(html_ade97c95b322cf38227331628c136077);
+            
+        
+
+        marker_08db036133d67bc25f2b9b20dd48df68.bindPopup(popup_50e02d91337a5ba96daea3e68fd9b053)
+        ;
+
+        
+    
+    
+            marker_08db036133d67bc25f2b9b20dd48df68.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20e7968571219b7e7b2459401e83a881 = L.marker(
+                [41.41157544090679, 2.0852793141889054],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_11c31a6470f8ed9b26610adf11b626fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5ea83c6316319748698608b4fd67d0b = $(`<div id="html_e5ea83c6316319748698608b4fd67d0b" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_11c31a6470f8ed9b26610adf11b626fd.setContent(html_e5ea83c6316319748698608b4fd67d0b);
+            
+        
+
+        marker_20e7968571219b7e7b2459401e83a881.bindPopup(popup_11c31a6470f8ed9b26610adf11b626fd)
+        ;
+
+        
+    
+    
+            marker_20e7968571219b7e7b2459401e83a881.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34b58082301d05cd1a436ce56819a329 = L.marker(
+                [41.42102913266343, 2.0852793141889054],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b2e5bfc935472d03bb7fe830c7ea01ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50b1464b255d8f06b0b29df25a526aff = $(`<div id="html_50b1464b255d8f06b0b29df25a526aff" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_b2e5bfc935472d03bb7fe830c7ea01ba.setContent(html_50b1464b255d8f06b0b29df25a526aff);
+            
+        
+
+        marker_34b58082301d05cd1a436ce56819a329.bindPopup(popup_b2e5bfc935472d03bb7fe830c7ea01ba)
+        ;
+
+        
+    
+    
+            marker_34b58082301d05cd1a436ce56819a329.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e52649d444fcec44cafd923f509f3825 = L.marker(
+                [41.41157544090679, 2.096261289705473],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b3d0e96d5593c247885d6c5946efda24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69efe3f58348bdfd07871f625c4fa388 = $(`<div id="html_69efe3f58348bdfd07871f625c4fa388" style="width: 100.0%; height: 100.0%;">Avg Rent: 27079.14</div>`)[0];
+                popup_b3d0e96d5593c247885d6c5946efda24.setContent(html_69efe3f58348bdfd07871f625c4fa388);
+            
+        
+
+        marker_e52649d444fcec44cafd923f509f3825.bindPopup(popup_b3d0e96d5593c247885d6c5946efda24)
+        ;
+
+        
+    
+    
+            marker_e52649d444fcec44cafd923f509f3825.bindTooltip(
+                `<div>
+                     27079.14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92147e6924c702e82fdb07d984d64a2d = L.marker(
+                [41.42102913266343, 2.096261289705473],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_c588903c0c1950b40e19a1375ad73234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9b6c1cd260ea03a9597e9874c4bbfbe = $(`<div id="html_d9b6c1cd260ea03a9597e9874c4bbfbe" style="width: 100.0%; height: 100.0%;">Avg Rent: 27079.14</div>`)[0];
+                popup_c588903c0c1950b40e19a1375ad73234.setContent(html_d9b6c1cd260ea03a9597e9874c4bbfbe);
+            
+        
+
+        marker_92147e6924c702e82fdb07d984d64a2d.bindPopup(popup_c588903c0c1950b40e19a1375ad73234)
+        ;
+
+        
+    
+    
+            marker_92147e6924c702e82fdb07d984d64a2d.bindTooltip(
+                `<div>
+                     27079.14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f549b90eda4914727efdabf77ca3ecf = L.marker(
+                [41.43048282442007, 2.096261289705473],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_3626e44fc057ffee4bde390afd5566b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abcb42b4e302077e7fce386f249d5538 = $(`<div id="html_abcb42b4e302077e7fce386f249d5538" style="width: 100.0%; height: 100.0%;">Avg Rent: 19798.29</div>`)[0];
+                popup_3626e44fc057ffee4bde390afd5566b9.setContent(html_abcb42b4e302077e7fce386f249d5538);
+            
+        
+
+        marker_4f549b90eda4914727efdabf77ca3ecf.bindPopup(popup_3626e44fc057ffee4bde390afd5566b9)
+        ;
+
+        
+    
+    
+            marker_4f549b90eda4914727efdabf77ca3ecf.bindTooltip(
+                `<div>
+                     19798.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86f690848a5fc51eda6c6ec6a7446c9e = L.marker(
+                [41.33594590685368, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_1eca9fe2ea163301ca1613b2296b3144 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3db1676ac0d133e7273e0a2b235f8b2c = $(`<div id="html_3db1676ac0d133e7273e0a2b235f8b2c" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_1eca9fe2ea163301ca1613b2296b3144.setContent(html_3db1676ac0d133e7273e0a2b235f8b2c);
+            
+        
+
+        marker_86f690848a5fc51eda6c6ec6a7446c9e.bindPopup(popup_1eca9fe2ea163301ca1613b2296b3144)
+        ;
+
+        
+    
+    
+            marker_86f690848a5fc51eda6c6ec6a7446c9e.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbf1c8f37e039e4cb892b31870f7ad99 = L.marker(
+                [41.38321436563687, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_0d5383b706e5c5b17ab665cd09640ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7e16e95597b7cde5b66cbf16dfb1a8 = $(`<div id="html_2b7e16e95597b7cde5b66cbf16dfb1a8" style="width: 100.0%; height: 100.0%;">Avg Rent: 31092.31</div>`)[0];
+                popup_0d5383b706e5c5b17ab665cd09640ed4.setContent(html_2b7e16e95597b7cde5b66cbf16dfb1a8);
+            
+        
+
+        marker_dbf1c8f37e039e4cb892b31870f7ad99.bindPopup(popup_0d5383b706e5c5b17ab665cd09640ed4)
+        ;
+
+        
+    
+    
+            marker_dbf1c8f37e039e4cb892b31870f7ad99.bindTooltip(
+                `<div>
+                     31092.31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26010076986a2a753a7e3f8f961e32dd = L.marker(
+                [41.392668057393514, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_6b0837bd31fa04706acb0ccea3f088d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24965efbe771516ac35c2ed667ae0ea4 = $(`<div id="html_24965efbe771516ac35c2ed667ae0ea4" style="width: 100.0%; height: 100.0%;">Avg Rent: 33619.29</div>`)[0];
+                popup_6b0837bd31fa04706acb0ccea3f088d1.setContent(html_24965efbe771516ac35c2ed667ae0ea4);
+            
+        
+
+        marker_26010076986a2a753a7e3f8f961e32dd.bindPopup(popup_6b0837bd31fa04706acb0ccea3f088d1)
+        ;
+
+        
+    
+    
+            marker_26010076986a2a753a7e3f8f961e32dd.bindTooltip(
+                `<div>
+                     33619.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a891d23b959c5963d1a6e5f0ff3f239e = L.marker(
+                [41.402121749150155, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_f25efbcc488b898ee2c0af2db0bbc615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6d3412efe639fd2cdaf2e29d3e12d1 = $(`<div id="html_8c6d3412efe639fd2cdaf2e29d3e12d1" style="width: 100.0%; height: 100.0%;">Avg Rent: 33794.82</div>`)[0];
+                popup_f25efbcc488b898ee2c0af2db0bbc615.setContent(html_8c6d3412efe639fd2cdaf2e29d3e12d1);
+            
+        
+
+        marker_a891d23b959c5963d1a6e5f0ff3f239e.bindPopup(popup_f25efbcc488b898ee2c0af2db0bbc615)
+        ;
+
+        
+    
+    
+            marker_a891d23b959c5963d1a6e5f0ff3f239e.bindTooltip(
+                `<div>
+                     33794.82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee136699c90063784f0e34d7911d8b20 = L.marker(
+                [41.41157544090679, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_4f02704ad26c99ca6bbb8cdd45c68c83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72e0e3dc811a4573d4b8287febfd3176 = $(`<div id="html_72e0e3dc811a4573d4b8287febfd3176" style="width: 100.0%; height: 100.0%;">Avg Rent: 30625.58</div>`)[0];
+                popup_4f02704ad26c99ca6bbb8cdd45c68c83.setContent(html_72e0e3dc811a4573d4b8287febfd3176);
+            
+        
+
+        marker_ee136699c90063784f0e34d7911d8b20.bindPopup(popup_4f02704ad26c99ca6bbb8cdd45c68c83)
+        ;
+
+        
+    
+    
+            marker_ee136699c90063784f0e34d7911d8b20.bindTooltip(
+                `<div>
+                     30625.58
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba43dc017d8493824f163088dba6aead = L.marker(
+                [41.42102913266343, 2.1072432652220394],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_489a2bd4bc65e2bf1d41959ed004f8d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc967e764b40bfc9db51463a06ba201 = $(`<div id="html_4dc967e764b40bfc9db51463a06ba201" style="width: 100.0%; height: 100.0%;">Avg Rent: 25002.77</div>`)[0];
+                popup_489a2bd4bc65e2bf1d41959ed004f8d1.setContent(html_4dc967e764b40bfc9db51463a06ba201);
+            
+        
+
+        marker_ba43dc017d8493824f163088dba6aead.bindPopup(popup_489a2bd4bc65e2bf1d41959ed004f8d1)
+        ;
+
+        
+    
+    
+            marker_ba43dc017d8493824f163088dba6aead.bindTooltip(
+                `<div>
+                     25002.77
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_094ea53dd5730cc6cd1f6a2c337f5b44 = L.marker(
+                [41.326492215097055, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_e27fc2d68663fd375e7b5663afebe9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d30a05a7270e2dad87c00ea2987ceb34 = $(`<div id="html_d30a05a7270e2dad87c00ea2987ceb34" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_e27fc2d68663fd375e7b5663afebe9a1.setContent(html_d30a05a7270e2dad87c00ea2987ceb34);
+            
+        
+
+        marker_094ea53dd5730cc6cd1f6a2c337f5b44.bindPopup(popup_e27fc2d68663fd375e7b5663afebe9a1)
+        ;
+
+        
+    
+    
+            marker_094ea53dd5730cc6cd1f6a2c337f5b44.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8b886877bc707c41a13bb5bf939eb4f = L.marker(
+                [41.33594590685368, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_09ebd12b47eda63b13fd3a19593c67df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_464cf26995d5c5e959a88517949787a2 = $(`<div id="html_464cf26995d5c5e959a88517949787a2" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_09ebd12b47eda63b13fd3a19593c67df.setContent(html_464cf26995d5c5e959a88517949787a2);
+            
+        
+
+        marker_d8b886877bc707c41a13bb5bf939eb4f.bindPopup(popup_09ebd12b47eda63b13fd3a19593c67df)
+        ;
+
+        
+    
+    
+            marker_d8b886877bc707c41a13bb5bf939eb4f.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_203c7448037161cadaecd7d9e3952fca = L.marker(
+                [41.38321436563687, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_c1855b01009ea4f5726ee95e31d8c49d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_862003e5ecbb47cf6997cb2b2b18cfe5 = $(`<div id="html_862003e5ecbb47cf6997cb2b2b18cfe5" style="width: 100.0%; height: 100.0%;">Avg Rent: 29186.6</div>`)[0];
+                popup_c1855b01009ea4f5726ee95e31d8c49d.setContent(html_862003e5ecbb47cf6997cb2b2b18cfe5);
+            
+        
+
+        marker_203c7448037161cadaecd7d9e3952fca.bindPopup(popup_c1855b01009ea4f5726ee95e31d8c49d)
+        ;
+
+        
+    
+    
+            marker_203c7448037161cadaecd7d9e3952fca.bindTooltip(
+                `<div>
+                     29186.6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bc7368fb40ae1f5135addde3b64b46f = L.marker(
+                [41.392668057393514, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_031ab9d5bdcf9b3e888ce8c3f8e2778b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c5c33fd7855218b1bc6fdb5bd72ed2 = $(`<div id="html_a5c5c33fd7855218b1bc6fdb5bd72ed2" style="width: 100.0%; height: 100.0%;">Avg Rent: 32570.62</div>`)[0];
+                popup_031ab9d5bdcf9b3e888ce8c3f8e2778b.setContent(html_a5c5c33fd7855218b1bc6fdb5bd72ed2);
+            
+        
+
+        marker_0bc7368fb40ae1f5135addde3b64b46f.bindPopup(popup_031ab9d5bdcf9b3e888ce8c3f8e2778b)
+        ;
+
+        
+    
+    
+            marker_0bc7368fb40ae1f5135addde3b64b46f.bindTooltip(
+                `<div>
+                     32570.62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62044a152ca9e018329a3599a2f82e04 = L.marker(
+                [41.402121749150155, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b6c6a20964092f711834ba278abe1fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e06473efb14785800a41457bd7cadd0 = $(`<div id="html_3e06473efb14785800a41457bd7cadd0" style="width: 100.0%; height: 100.0%;">Avg Rent: 35027.97</div>`)[0];
+                popup_b6c6a20964092f711834ba278abe1fcd.setContent(html_3e06473efb14785800a41457bd7cadd0);
+            
+        
+
+        marker_62044a152ca9e018329a3599a2f82e04.bindPopup(popup_b6c6a20964092f711834ba278abe1fcd)
+        ;
+
+        
+    
+    
+            marker_62044a152ca9e018329a3599a2f82e04.bindTooltip(
+                `<div>
+                     35027.97
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2d10b93beb780b62099940fb4d2f358 = L.marker(
+                [41.41157544090679, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_7cbe4d8877b109d934c67e82ba81dcba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3ccdbf4171ef20fe3b896fa0a14bbf5 = $(`<div id="html_d3ccdbf4171ef20fe3b896fa0a14bbf5" style="width: 100.0%; height: 100.0%;">Avg Rent: 35431.96</div>`)[0];
+                popup_7cbe4d8877b109d934c67e82ba81dcba.setContent(html_d3ccdbf4171ef20fe3b896fa0a14bbf5);
+            
+        
+
+        marker_c2d10b93beb780b62099940fb4d2f358.bindPopup(popup_7cbe4d8877b109d934c67e82ba81dcba)
+        ;
+
+        
+    
+    
+            marker_c2d10b93beb780b62099940fb4d2f358.bindTooltip(
+                `<div>
+                     35431.96
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87fa7ef9f2f708f39a3591ef11aecf3a = L.marker(
+                [41.42102913266343, 2.118225240738607],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9f6e207f3e742b8f57131faedfdbae90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_247f44dfe84d3420d4ff46d5ad587355 = $(`<div id="html_247f44dfe84d3420d4ff46d5ad587355" style="width: 100.0%; height: 100.0%;">Avg Rent: 29508.56</div>`)[0];
+                popup_9f6e207f3e742b8f57131faedfdbae90.setContent(html_247f44dfe84d3420d4ff46d5ad587355);
+            
+        
+
+        marker_87fa7ef9f2f708f39a3591ef11aecf3a.bindPopup(popup_9f6e207f3e742b8f57131faedfdbae90)
+        ;
+
+        
+    
+    
+            marker_87fa7ef9f2f708f39a3591ef11aecf3a.bindTooltip(
+                `<div>
+                     29508.56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2f4e0327c469908fe8d8e977a83fa23 = L.marker(
+                [41.326492215097055, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_ee217ab573acf59f85c63a17dfb1ae39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfcbfa04a7e6353edc222b2ee004fd75 = $(`<div id="html_bfcbfa04a7e6353edc222b2ee004fd75" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_ee217ab573acf59f85c63a17dfb1ae39.setContent(html_bfcbfa04a7e6353edc222b2ee004fd75);
+            
+        
+
+        marker_d2f4e0327c469908fe8d8e977a83fa23.bindPopup(popup_ee217ab573acf59f85c63a17dfb1ae39)
+        ;
+
+        
+    
+    
+            marker_d2f4e0327c469908fe8d8e977a83fa23.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f18137d7afa956edec1f812552b4a5b = L.marker(
+                [41.33594590685368, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_bfd6bdf76f79e2d0f9eea6e7269dd996 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97752ee688280fc8979443958bb0402e = $(`<div id="html_97752ee688280fc8979443958bb0402e" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_bfd6bdf76f79e2d0f9eea6e7269dd996.setContent(html_97752ee688280fc8979443958bb0402e);
+            
+        
+
+        marker_7f18137d7afa956edec1f812552b4a5b.bindPopup(popup_bfd6bdf76f79e2d0f9eea6e7269dd996)
+        ;
+
+        
+    
+    
+            marker_7f18137d7afa956edec1f812552b4a5b.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2c42524be1d230801f78dda49a72c7a = L.marker(
+                [41.34539959861033, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_49571c9a59a82bf31256d16d004e8e5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba054a9580130e918581cd16702386ac = $(`<div id="html_ba054a9580130e918581cd16702386ac" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_49571c9a59a82bf31256d16d004e8e5c.setContent(html_ba054a9580130e918581cd16702386ac);
+            
+        
+
+        marker_f2c42524be1d230801f78dda49a72c7a.bindPopup(popup_49571c9a59a82bf31256d16d004e8e5c)
+        ;
+
+        
+    
+    
+            marker_f2c42524be1d230801f78dda49a72c7a.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae43ba82b76c66b6bdbe39402ab70196 = L.marker(
+                [41.37376067388024, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_83354c39bc489513dbbf85275ba1028f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57d7a9137c7b842e71c29584ba5ba3db = $(`<div id="html_57d7a9137c7b842e71c29584ba5ba3db" style="width: 100.0%; height: 100.0%;">Avg Rent: 20392.69</div>`)[0];
+                popup_83354c39bc489513dbbf85275ba1028f.setContent(html_57d7a9137c7b842e71c29584ba5ba3db);
+            
+        
+
+        marker_ae43ba82b76c66b6bdbe39402ab70196.bindPopup(popup_83354c39bc489513dbbf85275ba1028f)
+        ;
+
+        
+    
+    
+            marker_ae43ba82b76c66b6bdbe39402ab70196.bindTooltip(
+                `<div>
+                     20392.69
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd5f372eedd003e3368b391b9cfd88de = L.marker(
+                [41.38321436563687, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9011c001875ffb55385abc31b2e0870b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff49e94da06405c2157ee8c067dd743b = $(`<div id="html_ff49e94da06405c2157ee8c067dd743b" style="width: 100.0%; height: 100.0%;">Avg Rent: 25354.14</div>`)[0];
+                popup_9011c001875ffb55385abc31b2e0870b.setContent(html_ff49e94da06405c2157ee8c067dd743b);
+            
+        
+
+        marker_cd5f372eedd003e3368b391b9cfd88de.bindPopup(popup_9011c001875ffb55385abc31b2e0870b)
+        ;
+
+        
+    
+    
+            marker_cd5f372eedd003e3368b391b9cfd88de.bindTooltip(
+                `<div>
+                     25354.14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e0949a00bb179a469b6da6d1923be7b = L.marker(
+                [41.392668057393514, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_0b63987832d1e30c93bc80fe0bbf883e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4cb6544e68b84fc25fe9f352d05b908 = $(`<div id="html_e4cb6544e68b84fc25fe9f352d05b908" style="width: 100.0%; height: 100.0%;">Avg Rent: 34087.85</div>`)[0];
+                popup_0b63987832d1e30c93bc80fe0bbf883e.setContent(html_e4cb6544e68b84fc25fe9f352d05b908);
+            
+        
+
+        marker_9e0949a00bb179a469b6da6d1923be7b.bindPopup(popup_0b63987832d1e30c93bc80fe0bbf883e)
+        ;
+
+        
+    
+    
+            marker_9e0949a00bb179a469b6da6d1923be7b.bindTooltip(
+                `<div>
+                     34087.85
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18918bc14bd58ee544254df5b1a55fe9 = L.marker(
+                [41.402121749150155, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_699c42428a1ed460c30dbd395b81bc99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c030689d26db81c6e99d23d44df79466 = $(`<div id="html_c030689d26db81c6e99d23d44df79466" style="width: 100.0%; height: 100.0%;">Avg Rent: 35746.2</div>`)[0];
+                popup_699c42428a1ed460c30dbd395b81bc99.setContent(html_c030689d26db81c6e99d23d44df79466);
+            
+        
+
+        marker_18918bc14bd58ee544254df5b1a55fe9.bindPopup(popup_699c42428a1ed460c30dbd395b81bc99)
+        ;
+
+        
+    
+    
+            marker_18918bc14bd58ee544254df5b1a55fe9.bindTooltip(
+                `<div>
+                     35746.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62ff9a6fa27b572a95e9e8984268612c = L.marker(
+                [41.41157544090679, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_6a859493c2aa94e76d2fbe2155c0afb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a565f18066b8ad299b20c2c0c97c78d9 = $(`<div id="html_a565f18066b8ad299b20c2c0c97c78d9" style="width: 100.0%; height: 100.0%;">Avg Rent: 35806.05</div>`)[0];
+                popup_6a859493c2aa94e76d2fbe2155c0afb0.setContent(html_a565f18066b8ad299b20c2c0c97c78d9);
+            
+        
+
+        marker_62ff9a6fa27b572a95e9e8984268612c.bindPopup(popup_6a859493c2aa94e76d2fbe2155c0afb0)
+        ;
+
+        
+    
+    
+            marker_62ff9a6fa27b572a95e9e8984268612c.bindTooltip(
+                `<div>
+                     35806.05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe195e777f3af48fdbaf87f681c36b4e = L.marker(
+                [41.42102913266343, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_1ac0f995ec06251d75b1b712c1cc4970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fb0aeec61d9efcecb4764c674b3cfd2 = $(`<div id="html_3fb0aeec61d9efcecb4764c674b3cfd2" style="width: 100.0%; height: 100.0%;">Avg Rent: 30730.21</div>`)[0];
+                popup_1ac0f995ec06251d75b1b712c1cc4970.setContent(html_3fb0aeec61d9efcecb4764c674b3cfd2);
+            
+        
+
+        marker_fe195e777f3af48fdbaf87f681c36b4e.bindPopup(popup_1ac0f995ec06251d75b1b712c1cc4970)
+        ;
+
+        
+    
+    
+            marker_fe195e777f3af48fdbaf87f681c36b4e.bindTooltip(
+                `<div>
+                     30730.21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16f1e59b66662fcd60bb755baae66d27 = L.marker(
+                [41.43048282442007, 2.129207216255174],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_0adb7af41f02be52ea6622d73af91110 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa6cb75230bad7a6f6c3f53d2e2ac01c = $(`<div id="html_aa6cb75230bad7a6f6c3f53d2e2ac01c" style="width: 100.0%; height: 100.0%;">Avg Rent: 19124.44</div>`)[0];
+                popup_0adb7af41f02be52ea6622d73af91110.setContent(html_aa6cb75230bad7a6f6c3f53d2e2ac01c);
+            
+        
+
+        marker_16f1e59b66662fcd60bb755baae66d27.bindPopup(popup_0adb7af41f02be52ea6622d73af91110)
+        ;
+
+        
+    
+    
+            marker_16f1e59b66662fcd60bb755baae66d27.bindTooltip(
+                `<div>
+                     19124.44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48269d71488e1587ad09c9e2610f5073 = L.marker(
+                [41.326492215097055, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_936657c7b0f0312abccc60a0f6f9af83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9411a334f3ce2817825c085aed22992 = $(`<div id="html_b9411a334f3ce2817825c085aed22992" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_936657c7b0f0312abccc60a0f6f9af83.setContent(html_b9411a334f3ce2817825c085aed22992);
+            
+        
+
+        marker_48269d71488e1587ad09c9e2610f5073.bindPopup(popup_936657c7b0f0312abccc60a0f6f9af83)
+        ;
+
+        
+    
+    
+            marker_48269d71488e1587ad09c9e2610f5073.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9109bc12c3aba801eb1e4c70b3646468 = L.marker(
+                [41.33594590685368, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9cfc55b79e8c0fab077498c966517541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af4e72812fbfabb65ba5738b4d24350d = $(`<div id="html_af4e72812fbfabb65ba5738b4d24350d" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_9cfc55b79e8c0fab077498c966517541.setContent(html_af4e72812fbfabb65ba5738b4d24350d);
+            
+        
+
+        marker_9109bc12c3aba801eb1e4c70b3646468.bindPopup(popup_9cfc55b79e8c0fab077498c966517541)
+        ;
+
+        
+    
+    
+            marker_9109bc12c3aba801eb1e4c70b3646468.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_663eaf39e1975d49d2c6fa409fb73367 = L.marker(
+                [41.34539959861033, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9179fdab68a58c8f711489e64ec11670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41d09b602158bf91591d55ea116cb85a = $(`<div id="html_41d09b602158bf91591d55ea116cb85a" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_9179fdab68a58c8f711489e64ec11670.setContent(html_41d09b602158bf91591d55ea116cb85a);
+            
+        
+
+        marker_663eaf39e1975d49d2c6fa409fb73367.bindPopup(popup_9179fdab68a58c8f711489e64ec11670)
+        ;
+
+        
+    
+    
+            marker_663eaf39e1975d49d2c6fa409fb73367.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d920cbfee3888654431fef96997aaa5 = L.marker(
+                [41.35485329036695, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_a156dfe02f002bbeb00aad27646f7e57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81af16dfaf42869698e76d7799de3885 = $(`<div id="html_81af16dfaf42869698e76d7799de3885" style="width: 100.0%; height: 100.0%;">Avg Rent: 16727.43</div>`)[0];
+                popup_a156dfe02f002bbeb00aad27646f7e57.setContent(html_81af16dfaf42869698e76d7799de3885);
+            
+        
+
+        marker_3d920cbfee3888654431fef96997aaa5.bindPopup(popup_a156dfe02f002bbeb00aad27646f7e57)
+        ;
+
+        
+    
+    
+            marker_3d920cbfee3888654431fef96997aaa5.bindTooltip(
+                `<div>
+                     16727.43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbb348fc25fff89207d9abb037e2ee8d = L.marker(
+                [41.364306982123594, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_5f0e994ee52a05a424b67ae323e1ac4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b51e677eddcd9593df5f883862167a64 = $(`<div id="html_b51e677eddcd9593df5f883862167a64" style="width: 100.0%; height: 100.0%;">Avg Rent: 18267.74</div>`)[0];
+                popup_5f0e994ee52a05a424b67ae323e1ac4b.setContent(html_b51e677eddcd9593df5f883862167a64);
+            
+        
+
+        marker_fbb348fc25fff89207d9abb037e2ee8d.bindPopup(popup_5f0e994ee52a05a424b67ae323e1ac4b)
+        ;
+
+        
+    
+    
+            marker_fbb348fc25fff89207d9abb037e2ee8d.bindTooltip(
+                `<div>
+                     18267.74
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_511a3a1b1966d6b22f326aa589eeb0af = L.marker(
+                [41.37376067388024, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_cd8e69483087535650762d22d39947ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7abb770f11bca4f7678b587e6cb28c59 = $(`<div id="html_7abb770f11bca4f7678b587e6cb28c59" style="width: 100.0%; height: 100.0%;">Avg Rent: 20323.28</div>`)[0];
+                popup_cd8e69483087535650762d22d39947ec.setContent(html_7abb770f11bca4f7678b587e6cb28c59);
+            
+        
+
+        marker_511a3a1b1966d6b22f326aa589eeb0af.bindPopup(popup_cd8e69483087535650762d22d39947ec)
+        ;
+
+        
+    
+    
+            marker_511a3a1b1966d6b22f326aa589eeb0af.bindTooltip(
+                `<div>
+                     20323.28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4d9db42028f889b8a7eddbd61289b02 = L.marker(
+                [41.38321436563687, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_71206889871cad3c808b90903a54a4dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d58ea9542a8308a45117e8b934a31227 = $(`<div id="html_d58ea9542a8308a45117e8b934a31227" style="width: 100.0%; height: 100.0%;">Avg Rent: 25425.18</div>`)[0];
+                popup_71206889871cad3c808b90903a54a4dc.setContent(html_d58ea9542a8308a45117e8b934a31227);
+            
+        
+
+        marker_e4d9db42028f889b8a7eddbd61289b02.bindPopup(popup_71206889871cad3c808b90903a54a4dc)
+        ;
+
+        
+    
+    
+            marker_e4d9db42028f889b8a7eddbd61289b02.bindTooltip(
+                `<div>
+                     25425.18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd8a5b33ac2d44527a360c7fa8ae4b41 = L.marker(
+                [41.392668057393514, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b2a5ade5cbc90862b2d2485ab37df68d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb91848d2d1a56eb5ec9e749106838e = $(`<div id="html_cbb91848d2d1a56eb5ec9e749106838e" style="width: 100.0%; height: 100.0%;">Avg Rent: 32922.33</div>`)[0];
+                popup_b2a5ade5cbc90862b2d2485ab37df68d.setContent(html_cbb91848d2d1a56eb5ec9e749106838e);
+            
+        
+
+        marker_fd8a5b33ac2d44527a360c7fa8ae4b41.bindPopup(popup_b2a5ade5cbc90862b2d2485ab37df68d)
+        ;
+
+        
+    
+    
+            marker_fd8a5b33ac2d44527a360c7fa8ae4b41.bindTooltip(
+                `<div>
+                     32922.33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53874cccb0b1a348fd78352eb8b9804d = L.marker(
+                [41.402121749150155, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_23a7a2ead20db3d524f095a80fd8f778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d88350eb2c54c219f8d6eb0f5943dd = $(`<div id="html_c3d88350eb2c54c219f8d6eb0f5943dd" style="width: 100.0%; height: 100.0%;">Avg Rent: 32166.45</div>`)[0];
+                popup_23a7a2ead20db3d524f095a80fd8f778.setContent(html_c3d88350eb2c54c219f8d6eb0f5943dd);
+            
+        
+
+        marker_53874cccb0b1a348fd78352eb8b9804d.bindPopup(popup_23a7a2ead20db3d524f095a80fd8f778)
+        ;
+
+        
+    
+    
+            marker_53874cccb0b1a348fd78352eb8b9804d.bindTooltip(
+                `<div>
+                     32166.45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7092437e7842a4bd8cd4c45e571db21e = L.marker(
+                [41.41157544090679, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_6885de28e604ba9192f1d1d8dd13e033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b82a6cf4ecb238fde86983d580f5655d = $(`<div id="html_b82a6cf4ecb238fde86983d580f5655d" style="width: 100.0%; height: 100.0%;">Avg Rent: 28766.88</div>`)[0];
+                popup_6885de28e604ba9192f1d1d8dd13e033.setContent(html_b82a6cf4ecb238fde86983d580f5655d);
+            
+        
+
+        marker_7092437e7842a4bd8cd4c45e571db21e.bindPopup(popup_6885de28e604ba9192f1d1d8dd13e033)
+        ;
+
+        
+    
+    
+            marker_7092437e7842a4bd8cd4c45e571db21e.bindTooltip(
+                `<div>
+                     28766.88
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fdf2e60cd7dc66b68706113b1ba5fc4 = L.marker(
+                [41.42102913266343, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_ec86c9e22d4c45a1c7ad4a4339d7ff86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1129a56ae0c3d1917def9c735774e94c = $(`<div id="html_1129a56ae0c3d1917def9c735774e94c" style="width: 100.0%; height: 100.0%;">Avg Rent: 20862.84</div>`)[0];
+                popup_ec86c9e22d4c45a1c7ad4a4339d7ff86.setContent(html_1129a56ae0c3d1917def9c735774e94c);
+            
+        
+
+        marker_7fdf2e60cd7dc66b68706113b1ba5fc4.bindPopup(popup_ec86c9e22d4c45a1c7ad4a4339d7ff86)
+        ;
+
+        
+    
+    
+            marker_7fdf2e60cd7dc66b68706113b1ba5fc4.bindTooltip(
+                `<div>
+                     20862.84
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37b7892766ed9375e9a684e11f54e0fb = L.marker(
+                [41.43048282442007, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_894288a296e92eaccdae3a9dc00c5fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53dbc4f10e0491a4d39ca7163e243878 = $(`<div id="html_53dbc4f10e0491a4d39ca7163e243878" style="width: 100.0%; height: 100.0%;">Avg Rent: 18920.05</div>`)[0];
+                popup_894288a296e92eaccdae3a9dc00c5fa4.setContent(html_53dbc4f10e0491a4d39ca7163e243878);
+            
+        
+
+        marker_37b7892766ed9375e9a684e11f54e0fb.bindPopup(popup_894288a296e92eaccdae3a9dc00c5fa4)
+        ;
+
+        
+    
+    
+            marker_37b7892766ed9375e9a684e11f54e0fb.bindTooltip(
+                `<div>
+                     18920.05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d353949458b5e48b0d7a60cd6226f6a = L.marker(
+                [41.4399365161767, 2.140189191771741],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_cd1ed0e41015ab1d7908e7e2230a6772 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13d0ffc04e0368bf2f36e79a05dfe0a = $(`<div id="html_a13d0ffc04e0368bf2f36e79a05dfe0a" style="width: 100.0%; height: 100.0%;">Avg Rent: 19983.48</div>`)[0];
+                popup_cd1ed0e41015ab1d7908e7e2230a6772.setContent(html_a13d0ffc04e0368bf2f36e79a05dfe0a);
+            
+        
+
+        marker_8d353949458b5e48b0d7a60cd6226f6a.bindPopup(popup_cd1ed0e41015ab1d7908e7e2230a6772)
+        ;
+
+        
+    
+    
+            marker_8d353949458b5e48b0d7a60cd6226f6a.bindTooltip(
+                `<div>
+                     19983.48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc528377f42547d44434f6d4f02134a6 = L.marker(
+                [41.326492215097055, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9c479f0084d938274669662ccf20fa79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3a43779efcaa20df7c60d5e14173456 = $(`<div id="html_b3a43779efcaa20df7c60d5e14173456" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_9c479f0084d938274669662ccf20fa79.setContent(html_b3a43779efcaa20df7c60d5e14173456);
+            
+        
+
+        marker_bc528377f42547d44434f6d4f02134a6.bindPopup(popup_9c479f0084d938274669662ccf20fa79)
+        ;
+
+        
+    
+    
+            marker_bc528377f42547d44434f6d4f02134a6.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb0c81ee60177b0cfe90c1315b0708a7 = L.marker(
+                [41.35485329036695, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_779949c1d656f2898cd39f050f54c798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5e7a1074eeaa8c39be93c75587be0d = $(`<div id="html_be5e7a1074eeaa8c39be93c75587be0d" style="width: 100.0%; height: 100.0%;">Avg Rent: 15863.81</div>`)[0];
+                popup_779949c1d656f2898cd39f050f54c798.setContent(html_be5e7a1074eeaa8c39be93c75587be0d);
+            
+        
+
+        marker_cb0c81ee60177b0cfe90c1315b0708a7.bindPopup(popup_779949c1d656f2898cd39f050f54c798)
+        ;
+
+        
+    
+    
+            marker_cb0c81ee60177b0cfe90c1315b0708a7.bindTooltip(
+                `<div>
+                     15863.81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fadae90082fd883f6af7126369762e20 = L.marker(
+                [41.364306982123594, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_7dcc619e01bd58d66d8eab173c8557ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5879f1b81e83e685abbb6b8b8d872892 = $(`<div id="html_5879f1b81e83e685abbb6b8b8d872892" style="width: 100.0%; height: 100.0%;">Avg Rent: 15108.05</div>`)[0];
+                popup_7dcc619e01bd58d66d8eab173c8557ec.setContent(html_5879f1b81e83e685abbb6b8b8d872892);
+            
+        
+
+        marker_fadae90082fd883f6af7126369762e20.bindPopup(popup_7dcc619e01bd58d66d8eab173c8557ec)
+        ;
+
+        
+    
+    
+            marker_fadae90082fd883f6af7126369762e20.bindTooltip(
+                `<div>
+                     15108.05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d4fd37bb5c9bf3bfc7aca4d0e22e0ee = L.marker(
+                [41.37376067388024, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_290ff25968889c0dd742b1943509b159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b53915a2090b7f1e05d92e03feae5dea = $(`<div id="html_b53915a2090b7f1e05d92e03feae5dea" style="width: 100.0%; height: 100.0%;">Avg Rent: 20410.51</div>`)[0];
+                popup_290ff25968889c0dd742b1943509b159.setContent(html_b53915a2090b7f1e05d92e03feae5dea);
+            
+        
+
+        marker_5d4fd37bb5c9bf3bfc7aca4d0e22e0ee.bindPopup(popup_290ff25968889c0dd742b1943509b159)
+        ;
+
+        
+    
+    
+            marker_5d4fd37bb5c9bf3bfc7aca4d0e22e0ee.bindTooltip(
+                `<div>
+                     20410.51
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_628efe1ff3ae4664248f6119f0c3eea5 = L.marker(
+                [41.38321436563687, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_0af4aaeb14905498c88f3374093bcf68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71b134a75aaa531914a910543b254cdf = $(`<div id="html_71b134a75aaa531914a910543b254cdf" style="width: 100.0%; height: 100.0%;">Avg Rent: 24556.57</div>`)[0];
+                popup_0af4aaeb14905498c88f3374093bcf68.setContent(html_71b134a75aaa531914a910543b254cdf);
+            
+        
+
+        marker_628efe1ff3ae4664248f6119f0c3eea5.bindPopup(popup_0af4aaeb14905498c88f3374093bcf68)
+        ;
+
+        
+    
+    
+            marker_628efe1ff3ae4664248f6119f0c3eea5.bindTooltip(
+                `<div>
+                     24556.57
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39096ed7ed6539367e821310f481dec5 = L.marker(
+                [41.392668057393514, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_84af6b0b426f3437b5ae0d889e2d43de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f98374181284158785c5fa01cf339a = $(`<div id="html_c7f98374181284158785c5fa01cf339a" style="width: 100.0%; height: 100.0%;">Avg Rent: 28858.44</div>`)[0];
+                popup_84af6b0b426f3437b5ae0d889e2d43de.setContent(html_c7f98374181284158785c5fa01cf339a);
+            
+        
+
+        marker_39096ed7ed6539367e821310f481dec5.bindPopup(popup_84af6b0b426f3437b5ae0d889e2d43de)
+        ;
+
+        
+    
+    
+            marker_39096ed7ed6539367e821310f481dec5.bindTooltip(
+                `<div>
+                     28858.44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_896cb2c5bd3121d87ed2bf6bc59cea60 = L.marker(
+                [41.402121749150155, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_e94e5f9be2afdb47e950144f7214d4ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_216e60e1688fbb7d0777b7d1826578ba = $(`<div id="html_216e60e1688fbb7d0777b7d1826578ba" style="width: 100.0%; height: 100.0%;">Avg Rent: 26383.64</div>`)[0];
+                popup_e94e5f9be2afdb47e950144f7214d4ff.setContent(html_216e60e1688fbb7d0777b7d1826578ba);
+            
+        
+
+        marker_896cb2c5bd3121d87ed2bf6bc59cea60.bindPopup(popup_e94e5f9be2afdb47e950144f7214d4ff)
+        ;
+
+        
+    
+    
+            marker_896cb2c5bd3121d87ed2bf6bc59cea60.bindTooltip(
+                `<div>
+                     26383.64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_829d2f6ccca2783e469ceaf885bed09a = L.marker(
+                [41.41157544090679, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_23ca56c2e9cc32f96f42b078d1f70638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_389d2af0e393600798fbf7b8dc098961 = $(`<div id="html_389d2af0e393600798fbf7b8dc098961" style="width: 100.0%; height: 100.0%;">Avg Rent: 24158.16</div>`)[0];
+                popup_23ca56c2e9cc32f96f42b078d1f70638.setContent(html_389d2af0e393600798fbf7b8dc098961);
+            
+        
+
+        marker_829d2f6ccca2783e469ceaf885bed09a.bindPopup(popup_23ca56c2e9cc32f96f42b078d1f70638)
+        ;
+
+        
+    
+    
+            marker_829d2f6ccca2783e469ceaf885bed09a.bindTooltip(
+                `<div>
+                     24158.16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_097df57a3ea9c7d066398f2bc92dafad = L.marker(
+                [41.42102913266343, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_51ab2fc1f2d4bcab5a7e39200d4230d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41450d6a032d23bf9818ae1eaad263f7 = $(`<div id="html_41450d6a032d23bf9818ae1eaad263f7" style="width: 100.0%; height: 100.0%;">Avg Rent: 17100.88</div>`)[0];
+                popup_51ab2fc1f2d4bcab5a7e39200d4230d0.setContent(html_41450d6a032d23bf9818ae1eaad263f7);
+            
+        
+
+        marker_097df57a3ea9c7d066398f2bc92dafad.bindPopup(popup_51ab2fc1f2d4bcab5a7e39200d4230d0)
+        ;
+
+        
+    
+    
+            marker_097df57a3ea9c7d066398f2bc92dafad.bindTooltip(
+                `<div>
+                     17100.88
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1b48998e0d39f4ba442864a2bf7d3ed = L.marker(
+                [41.43048282442007, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9b10f9f75f5a59215065de1606a5068c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fa05c063273d8dcbe6fe892b35a6ab5 = $(`<div id="html_2fa05c063273d8dcbe6fe892b35a6ab5" style="width: 100.0%; height: 100.0%;">Avg Rent: 19861.48</div>`)[0];
+                popup_9b10f9f75f5a59215065de1606a5068c.setContent(html_2fa05c063273d8dcbe6fe892b35a6ab5);
+            
+        
+
+        marker_d1b48998e0d39f4ba442864a2bf7d3ed.bindPopup(popup_9b10f9f75f5a59215065de1606a5068c)
+        ;
+
+        
+    
+    
+            marker_d1b48998e0d39f4ba442864a2bf7d3ed.bindTooltip(
+                `<div>
+                     19861.48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10cb3953fd6acf0bad50564160b90f1b = L.marker(
+                [41.4399365161767, 2.151171167288308],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_ac21ba1949fe17be299841941244b98a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dc8cb441c46ee920538fe989a9d523f = $(`<div id="html_7dc8cb441c46ee920538fe989a9d523f" style="width: 100.0%; height: 100.0%;">Avg Rent: 20975.48</div>`)[0];
+                popup_ac21ba1949fe17be299841941244b98a.setContent(html_7dc8cb441c46ee920538fe989a9d523f);
+            
+        
+
+        marker_10cb3953fd6acf0bad50564160b90f1b.bindPopup(popup_ac21ba1949fe17be299841941244b98a)
+        ;
+
+        
+    
+    
+            marker_10cb3953fd6acf0bad50564160b90f1b.bindTooltip(
+                `<div>
+                     20975.48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba8f744884dd9adf23f0b858660f28db = L.marker(
+                [41.33594590685368, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_1bd37aa527fefa80ca6bb0491b5420f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_210505b045ed83cd07dcd774f7126aeb = $(`<div id="html_210505b045ed83cd07dcd774f7126aeb" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_1bd37aa527fefa80ca6bb0491b5420f7.setContent(html_210505b045ed83cd07dcd774f7126aeb);
+            
+        
+
+        marker_ba8f744884dd9adf23f0b858660f28db.bindPopup(popup_1bd37aa527fefa80ca6bb0491b5420f7)
+        ;
+
+        
+    
+    
+            marker_ba8f744884dd9adf23f0b858660f28db.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9f800621e33baf2b6d930921ac2bf0f = L.marker(
+                [41.35485329036695, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_38eaf5a8b24f539c4b81785329a34d3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b8b7a854dd2c50d97f948cb2235b61b = $(`<div id="html_7b8b7a854dd2c50d97f948cb2235b61b" style="width: 100.0%; height: 100.0%;">Avg Rent: 15846.66</div>`)[0];
+                popup_38eaf5a8b24f539c4b81785329a34d3c.setContent(html_7b8b7a854dd2c50d97f948cb2235b61b);
+            
+        
+
+        marker_f9f800621e33baf2b6d930921ac2bf0f.bindPopup(popup_38eaf5a8b24f539c4b81785329a34d3c)
+        ;
+
+        
+    
+    
+            marker_f9f800621e33baf2b6d930921ac2bf0f.bindTooltip(
+                `<div>
+                     15846.66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71f6fcbeee7e8acca23de53007ec5740 = L.marker(
+                [41.364306982123594, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_73d6be758df0142094dc4ecb05568605 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e6acac4d27a44ac32490eb9e4fa2352 = $(`<div id="html_0e6acac4d27a44ac32490eb9e4fa2352" style="width: 100.0%; height: 100.0%;">Avg Rent: 16942.56</div>`)[0];
+                popup_73d6be758df0142094dc4ecb05568605.setContent(html_0e6acac4d27a44ac32490eb9e4fa2352);
+            
+        
+
+        marker_71f6fcbeee7e8acca23de53007ec5740.bindPopup(popup_73d6be758df0142094dc4ecb05568605)
+        ;
+
+        
+    
+    
+            marker_71f6fcbeee7e8acca23de53007ec5740.bindTooltip(
+                `<div>
+                     16942.56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92971d3e7af81c31fad4b18d5d5ad015 = L.marker(
+                [41.37376067388024, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_8dfeba684591f191efc4940e52f71acc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3278c1ea5fd3594d0551008d1e2916c2 = $(`<div id="html_3278c1ea5fd3594d0551008d1e2916c2" style="width: 100.0%; height: 100.0%;">Avg Rent: 17436.4</div>`)[0];
+                popup_8dfeba684591f191efc4940e52f71acc.setContent(html_3278c1ea5fd3594d0551008d1e2916c2);
+            
+        
+
+        marker_92971d3e7af81c31fad4b18d5d5ad015.bindPopup(popup_8dfeba684591f191efc4940e52f71acc)
+        ;
+
+        
+    
+    
+            marker_92971d3e7af81c31fad4b18d5d5ad015.bindTooltip(
+                `<div>
+                     17436.4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c92be00bdacc3934993eb14d4097c1e1 = L.marker(
+                [41.38321436563687, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_747d464be362ed7c54d7435ad98f77ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74e84a20cbd501df0db969729dcfff6f = $(`<div id="html_74e84a20cbd501df0db969729dcfff6f" style="width: 100.0%; height: 100.0%;">Avg Rent: 20894.0</div>`)[0];
+                popup_747d464be362ed7c54d7435ad98f77ff.setContent(html_74e84a20cbd501df0db969729dcfff6f);
+            
+        
+
+        marker_c92be00bdacc3934993eb14d4097c1e1.bindPopup(popup_747d464be362ed7c54d7435ad98f77ff)
+        ;
+
+        
+    
+    
+            marker_c92be00bdacc3934993eb14d4097c1e1.bindTooltip(
+                `<div>
+                     20894.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c3a8a537d72b68567ed219f05db1a25 = L.marker(
+                [41.392668057393514, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_2fc11637c8543ba19e1558a9f59770a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44e9bb5116b95e0f192bf6ed32403590 = $(`<div id="html_44e9bb5116b95e0f192bf6ed32403590" style="width: 100.0%; height: 100.0%;">Avg Rent: 28009.63</div>`)[0];
+                popup_2fc11637c8543ba19e1558a9f59770a4.setContent(html_44e9bb5116b95e0f192bf6ed32403590);
+            
+        
+
+        marker_7c3a8a537d72b68567ed219f05db1a25.bindPopup(popup_2fc11637c8543ba19e1558a9f59770a4)
+        ;
+
+        
+    
+    
+            marker_7c3a8a537d72b68567ed219f05db1a25.bindTooltip(
+                `<div>
+                     28009.63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a02c29c5f7e9d7d0acf9f86a6d43ba67 = L.marker(
+                [41.402121749150155, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_d87192b547c5b2730bbef215bd49ba7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb16a2574fbab810f945969c4c9aa740 = $(`<div id="html_bb16a2574fbab810f945969c4c9aa740" style="width: 100.0%; height: 100.0%;">Avg Rent: 24025.42</div>`)[0];
+                popup_d87192b547c5b2730bbef215bd49ba7b.setContent(html_bb16a2574fbab810f945969c4c9aa740);
+            
+        
+
+        marker_a02c29c5f7e9d7d0acf9f86a6d43ba67.bindPopup(popup_d87192b547c5b2730bbef215bd49ba7b)
+        ;
+
+        
+    
+    
+            marker_a02c29c5f7e9d7d0acf9f86a6d43ba67.bindTooltip(
+                `<div>
+                     24025.42
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b23a3d63fd21b0225c3e6d262cfd0ad = L.marker(
+                [41.41157544090679, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_3a191dbdd587f5a15c1aad4d0af09d7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a258f607e44d3da501d0e1fe41ff223c = $(`<div id="html_a258f607e44d3da501d0e1fe41ff223c" style="width: 100.0%; height: 100.0%;">Avg Rent: 22948.81</div>`)[0];
+                popup_3a191dbdd587f5a15c1aad4d0af09d7f.setContent(html_a258f607e44d3da501d0e1fe41ff223c);
+            
+        
+
+        marker_3b23a3d63fd21b0225c3e6d262cfd0ad.bindPopup(popup_3a191dbdd587f5a15c1aad4d0af09d7f)
+        ;
+
+        
+    
+    
+            marker_3b23a3d63fd21b0225c3e6d262cfd0ad.bindTooltip(
+                `<div>
+                     22948.81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7616064beba2f0bd1266e4710c5f002 = L.marker(
+                [41.42102913266343, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_5c9d5c94a0a2e302c4b1044d59dd8d92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a820e1b4980b376eb4a9d1b7b3ec2515 = $(`<div id="html_a820e1b4980b376eb4a9d1b7b3ec2515" style="width: 100.0%; height: 100.0%;">Avg Rent: 19056.97</div>`)[0];
+                popup_5c9d5c94a0a2e302c4b1044d59dd8d92.setContent(html_a820e1b4980b376eb4a9d1b7b3ec2515);
+            
+        
+
+        marker_e7616064beba2f0bd1266e4710c5f002.bindPopup(popup_5c9d5c94a0a2e302c4b1044d59dd8d92)
+        ;
+
+        
+    
+    
+            marker_e7616064beba2f0bd1266e4710c5f002.bindTooltip(
+                `<div>
+                     19056.97
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dd86fd3dd7ceabe9bfaa7a2ffc3a669 = L.marker(
+                [41.43048282442007, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_16dd503b7fa2bb9a5b72fb99a620647c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed438389d274bf227b380d5fbc5f058 = $(`<div id="html_2ed438389d274bf227b380d5fbc5f058" style="width: 100.0%; height: 100.0%;">Avg Rent: 19561.55</div>`)[0];
+                popup_16dd503b7fa2bb9a5b72fb99a620647c.setContent(html_2ed438389d274bf227b380d5fbc5f058);
+            
+        
+
+        marker_3dd86fd3dd7ceabe9bfaa7a2ffc3a669.bindPopup(popup_16dd503b7fa2bb9a5b72fb99a620647c)
+        ;
+
+        
+    
+    
+            marker_3dd86fd3dd7ceabe9bfaa7a2ffc3a669.bindTooltip(
+                `<div>
+                     19561.55
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e135b82cc7d599ce72ef55b9e5c208c3 = L.marker(
+                [41.4399365161767, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_2f56b7ceae62c6d7f07a26fad82ce5ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a66f719c1793a4347067d9eb7215b0b4 = $(`<div id="html_a66f719c1793a4347067d9eb7215b0b4" style="width: 100.0%; height: 100.0%;">Avg Rent: 18868.91</div>`)[0];
+                popup_2f56b7ceae62c6d7f07a26fad82ce5ac.setContent(html_a66f719c1793a4347067d9eb7215b0b4);
+            
+        
+
+        marker_e135b82cc7d599ce72ef55b9e5c208c3.bindPopup(popup_2f56b7ceae62c6d7f07a26fad82ce5ac)
+        ;
+
+        
+    
+    
+            marker_e135b82cc7d599ce72ef55b9e5c208c3.bindTooltip(
+                `<div>
+                     18868.91
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0edef79176447ca4c50b5a16a45e5d0f = L.marker(
+                [41.449390207933334, 2.162153142804875],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_5bc0e8ce5cb02703c17ecac162769983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f1707bbe37771b906457703ea82603f = $(`<div id="html_4f1707bbe37771b906457703ea82603f" style="width: 100.0%; height: 100.0%;">Avg Rent: 14748.9</div>`)[0];
+                popup_5bc0e8ce5cb02703c17ecac162769983.setContent(html_4f1707bbe37771b906457703ea82603f);
+            
+        
+
+        marker_0edef79176447ca4c50b5a16a45e5d0f.bindPopup(popup_5bc0e8ce5cb02703c17ecac162769983)
+        ;
+
+        
+    
+    
+            marker_0edef79176447ca4c50b5a16a45e5d0f.bindTooltip(
+                `<div>
+                     14748.9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71757158c8221663ff5e0320bacb3a60 = L.marker(
+                [41.34539959861033, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_b0908a710eb63735d259decfdd7912eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_323a4b64b3e12070eedb51e24c350133 = $(`<div id="html_323a4b64b3e12070eedb51e24c350133" style="width: 100.0%; height: 100.0%;">Avg Rent: 14750.75</div>`)[0];
+                popup_b0908a710eb63735d259decfdd7912eb.setContent(html_323a4b64b3e12070eedb51e24c350133);
+            
+        
+
+        marker_71757158c8221663ff5e0320bacb3a60.bindPopup(popup_b0908a710eb63735d259decfdd7912eb)
+        ;
+
+        
+    
+    
+            marker_71757158c8221663ff5e0320bacb3a60.bindTooltip(
+                `<div>
+                     14750.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4da4ba0c7086a19fa264ee0413beea7 = L.marker(
+                [41.364306982123594, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_d5bf2eaededc75a074e2a92cd54ddcf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc3b29d5b5904cd09fe2b18a0b84226f = $(`<div id="html_cc3b29d5b5904cd09fe2b18a0b84226f" style="width: 100.0%; height: 100.0%;">Avg Rent: 15846.66</div>`)[0];
+                popup_d5bf2eaededc75a074e2a92cd54ddcf7.setContent(html_cc3b29d5b5904cd09fe2b18a0b84226f);
+            
+        
+
+        marker_b4da4ba0c7086a19fa264ee0413beea7.bindPopup(popup_d5bf2eaededc75a074e2a92cd54ddcf7)
+        ;
+
+        
+    
+    
+            marker_b4da4ba0c7086a19fa264ee0413beea7.bindTooltip(
+                `<div>
+                     15846.66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e926f28e97f2827bb7aced5f94e71a0 = L.marker(
+                [41.37376067388024, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_77383665ce26b983659abf890078b87f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61fefa7607d35a9bb964b76708ad2daa = $(`<div id="html_61fefa7607d35a9bb964b76708ad2daa" style="width: 100.0%; height: 100.0%;">Avg Rent: 15035.84</div>`)[0];
+                popup_77383665ce26b983659abf890078b87f.setContent(html_61fefa7607d35a9bb964b76708ad2daa);
+            
+        
+
+        marker_6e926f28e97f2827bb7aced5f94e71a0.bindPopup(popup_77383665ce26b983659abf890078b87f)
+        ;
+
+        
+    
+    
+            marker_6e926f28e97f2827bb7aced5f94e71a0.bindTooltip(
+                `<div>
+                     15035.84
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82ac57ee4891341ac0900adb3f84c893 = L.marker(
+                [41.38321436563687, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_a7d48623812d9fc30bc86c1a373c426d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d352b339e0c23ea00233c5c5288762b = $(`<div id="html_6d352b339e0c23ea00233c5c5288762b" style="width: 100.0%; height: 100.0%;">Avg Rent: 15929.24</div>`)[0];
+                popup_a7d48623812d9fc30bc86c1a373c426d.setContent(html_6d352b339e0c23ea00233c5c5288762b);
+            
+        
+
+        marker_82ac57ee4891341ac0900adb3f84c893.bindPopup(popup_a7d48623812d9fc30bc86c1a373c426d)
+        ;
+
+        
+    
+    
+            marker_82ac57ee4891341ac0900adb3f84c893.bindTooltip(
+                `<div>
+                     15929.24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b13a2f8982917e044d109ce52ce0648 = L.marker(
+                [41.392668057393514, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_dce77d51b224e7803a6660ec11a1f31d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37aa575896bda93e0fa09bbfd48727f6 = $(`<div id="html_37aa575896bda93e0fa09bbfd48727f6" style="width: 100.0%; height: 100.0%;">Avg Rent: 25356.03</div>`)[0];
+                popup_dce77d51b224e7803a6660ec11a1f31d.setContent(html_37aa575896bda93e0fa09bbfd48727f6);
+            
+        
+
+        marker_5b13a2f8982917e044d109ce52ce0648.bindPopup(popup_dce77d51b224e7803a6660ec11a1f31d)
+        ;
+
+        
+    
+    
+            marker_5b13a2f8982917e044d109ce52ce0648.bindTooltip(
+                `<div>
+                     25356.03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07ece3771e49d0b103feb20e09483108 = L.marker(
+                [41.402121749150155, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_c97f7ab266d8e4c3dd379867eb5963b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7799192650c1dd4fb5eb95420d587411 = $(`<div id="html_7799192650c1dd4fb5eb95420d587411" style="width: 100.0%; height: 100.0%;">Avg Rent: 23382.26</div>`)[0];
+                popup_c97f7ab266d8e4c3dd379867eb5963b2.setContent(html_7799192650c1dd4fb5eb95420d587411);
+            
+        
+
+        marker_07ece3771e49d0b103feb20e09483108.bindPopup(popup_c97f7ab266d8e4c3dd379867eb5963b2)
+        ;
+
+        
+    
+    
+            marker_07ece3771e49d0b103feb20e09483108.bindTooltip(
+                `<div>
+                     23382.26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d172a29608a2d02d835f0f943db4c337 = L.marker(
+                [41.41157544090679, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_123afd962a6726005d959b0320d3514d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5f8c1f89de7802e010c386bd184e102 = $(`<div id="html_b5f8c1f89de7802e010c386bd184e102" style="width: 100.0%; height: 100.0%;">Avg Rent: 21877.68</div>`)[0];
+                popup_123afd962a6726005d959b0320d3514d.setContent(html_b5f8c1f89de7802e010c386bd184e102);
+            
+        
+
+        marker_d172a29608a2d02d835f0f943db4c337.bindPopup(popup_123afd962a6726005d959b0320d3514d)
+        ;
+
+        
+    
+    
+            marker_d172a29608a2d02d835f0f943db4c337.bindTooltip(
+                `<div>
+                     21877.68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77212f5c6db7ef626a45d6e1e6b572fb = L.marker(
+                [41.42102913266343, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_80b89388bbacb65ef0f59ebe63a706ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90ce10b4f90fe0d0d9f8fcded144df5f = $(`<div id="html_90ce10b4f90fe0d0d9f8fcded144df5f" style="width: 100.0%; height: 100.0%;">Avg Rent: 20976.61</div>`)[0];
+                popup_80b89388bbacb65ef0f59ebe63a706ef.setContent(html_90ce10b4f90fe0d0d9f8fcded144df5f);
+            
+        
+
+        marker_77212f5c6db7ef626a45d6e1e6b572fb.bindPopup(popup_80b89388bbacb65ef0f59ebe63a706ef)
+        ;
+
+        
+    
+    
+            marker_77212f5c6db7ef626a45d6e1e6b572fb.bindTooltip(
+                `<div>
+                     20976.61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fd56ff18c535f0057df52c101204004 = L.marker(
+                [41.43048282442007, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9b3b3c5757d6b62a243623a42ece8af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d357f774f8ab84871c499f66a775ae9 = $(`<div id="html_7d357f774f8ab84871c499f66a775ae9" style="width: 100.0%; height: 100.0%;">Avg Rent: 18114.2</div>`)[0];
+                popup_9b3b3c5757d6b62a243623a42ece8af4.setContent(html_7d357f774f8ab84871c499f66a775ae9);
+            
+        
+
+        marker_2fd56ff18c535f0057df52c101204004.bindPopup(popup_9b3b3c5757d6b62a243623a42ece8af4)
+        ;
+
+        
+    
+    
+            marker_2fd56ff18c535f0057df52c101204004.bindTooltip(
+                `<div>
+                     18114.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54bb40560030abfd14714ceae5878098 = L.marker(
+                [41.4399365161767, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_c4d03a36a2fcf9256a2d3872d8d13396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f61266ef2e8e3c37aa22c5fa82b354cb = $(`<div id="html_f61266ef2e8e3c37aa22c5fa82b354cb" style="width: 100.0%; height: 100.0%;">Avg Rent: 16486.37</div>`)[0];
+                popup_c4d03a36a2fcf9256a2d3872d8d13396.setContent(html_f61266ef2e8e3c37aa22c5fa82b354cb);
+            
+        
+
+        marker_54bb40560030abfd14714ceae5878098.bindPopup(popup_c4d03a36a2fcf9256a2d3872d8d13396)
+        ;
+
+        
+    
+    
+            marker_54bb40560030abfd14714ceae5878098.bindTooltip(
+                `<div>
+                     16486.37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3eec2611a5f6c71db909293caf27087e = L.marker(
+                [41.449390207933334, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_9d8b942e51bed1eaa54bd004dd98a83b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ae524db154aac9599635b4cfb7172c = $(`<div id="html_c3ae524db154aac9599635b4cfb7172c" style="width: 100.0%; height: 100.0%;">Avg Rent: 13305.35</div>`)[0];
+                popup_9d8b942e51bed1eaa54bd004dd98a83b.setContent(html_c3ae524db154aac9599635b4cfb7172c);
+            
+        
+
+        marker_3eec2611a5f6c71db909293caf27087e.bindPopup(popup_9d8b942e51bed1eaa54bd004dd98a83b)
+        ;
+
+        
+    
+    
+            marker_3eec2611a5f6c71db909293caf27087e.bindTooltip(
+                `<div>
+                     13305.35
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61b37ee378e8a2d88edae337a215674a = L.marker(
+                [41.45884389968997, 2.173135118321442],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_d38ba7815cbe3a3bb147125d131fc160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f67649059f3fff2d7b1b22fa2ef4683 = $(`<div id="html_1f67649059f3fff2d7b1b22fa2ef4683" style="width: 100.0%; height: 100.0%;">Avg Rent: 11238.3</div>`)[0];
+                popup_d38ba7815cbe3a3bb147125d131fc160.setContent(html_1f67649059f3fff2d7b1b22fa2ef4683);
+            
+        
+
+        marker_61b37ee378e8a2d88edae337a215674a.bindPopup(popup_d38ba7815cbe3a3bb147125d131fc160)
+        ;
+
+        
+    
+    
+            marker_61b37ee378e8a2d88edae337a215674a.bindTooltip(
+                `<div>
+                     11238.3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b382ee9c246a1c1ebb68fb84cec94d38 = L.marker(
+                [41.38321436563687, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_3a7c1eca026fdee49655824361c4a6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_164f24719411aa4132cf5026cddafaaf = $(`<div id="html_164f24719411aa4132cf5026cddafaaf" style="width: 100.0%; height: 100.0%;">Avg Rent: 17209.7</div>`)[0];
+                popup_3a7c1eca026fdee49655824361c4a6a4.setContent(html_164f24719411aa4132cf5026cddafaaf);
+            
+        
+
+        marker_b382ee9c246a1c1ebb68fb84cec94d38.bindPopup(popup_3a7c1eca026fdee49655824361c4a6a4)
+        ;
+
+        
+    
+    
+            marker_b382ee9c246a1c1ebb68fb84cec94d38.bindTooltip(
+                `<div>
+                     17209.7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ec66412d3405c877e800a76bc00f582 = L.marker(
+                [41.392668057393514, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_f2bd7756ccc0b4d1548fed4d8a3853cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62303d701254670e1c896125fb85f217 = $(`<div id="html_62303d701254670e1c896125fb85f217" style="width: 100.0%; height: 100.0%;">Avg Rent: 22669.43</div>`)[0];
+                popup_f2bd7756ccc0b4d1548fed4d8a3853cb.setContent(html_62303d701254670e1c896125fb85f217);
+            
+        
+
+        marker_1ec66412d3405c877e800a76bc00f582.bindPopup(popup_f2bd7756ccc0b4d1548fed4d8a3853cb)
+        ;
+
+        
+    
+    
+            marker_1ec66412d3405c877e800a76bc00f582.bindTooltip(
+                `<div>
+                     22669.43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ac967a798da74f5b50d24b0081fa128 = L.marker(
+                [41.402121749150155, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_fba9a765c3f23284a3ca9297aae6ec84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6614ca9f6bb3d367f5fc45d8c7ce6d = $(`<div id="html_ab6614ca9f6bb3d367f5fc45d8c7ce6d" style="width: 100.0%; height: 100.0%;">Avg Rent: 21581.01</div>`)[0];
+                popup_fba9a765c3f23284a3ca9297aae6ec84.setContent(html_ab6614ca9f6bb3d367f5fc45d8c7ce6d);
+            
+        
+
+        marker_6ac967a798da74f5b50d24b0081fa128.bindPopup(popup_fba9a765c3f23284a3ca9297aae6ec84)
+        ;
+
+        
+    
+    
+            marker_6ac967a798da74f5b50d24b0081fa128.bindTooltip(
+                `<div>
+                     21581.01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_376f59380e667074a44ea95b2d814dca = L.marker(
+                [41.41157544090679, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_41003c6fa00ea32bda81dff3a6dd8a0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e3fd593caccd76536ebaf8e09443abd = $(`<div id="html_2e3fd593caccd76536ebaf8e09443abd" style="width: 100.0%; height: 100.0%;">Avg Rent: 21031.11</div>`)[0];
+                popup_41003c6fa00ea32bda81dff3a6dd8a0c.setContent(html_2e3fd593caccd76536ebaf8e09443abd);
+            
+        
+
+        marker_376f59380e667074a44ea95b2d814dca.bindPopup(popup_41003c6fa00ea32bda81dff3a6dd8a0c)
+        ;
+
+        
+    
+    
+            marker_376f59380e667074a44ea95b2d814dca.bindTooltip(
+                `<div>
+                     21031.11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ac3903967ab389b10aa8b59c907d28a = L.marker(
+                [41.42102913266343, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_20f332c9994a26050b753f66f93d6c48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d26de3946cc6f50af3a2dbbd450009 = $(`<div id="html_81d26de3946cc6f50af3a2dbbd450009" style="width: 100.0%; height: 100.0%;">Avg Rent: 20220.45</div>`)[0];
+                popup_20f332c9994a26050b753f66f93d6c48.setContent(html_81d26de3946cc6f50af3a2dbbd450009);
+            
+        
+
+        marker_2ac3903967ab389b10aa8b59c907d28a.bindPopup(popup_20f332c9994a26050b753f66f93d6c48)
+        ;
+
+        
+    
+    
+            marker_2ac3903967ab389b10aa8b59c907d28a.bindTooltip(
+                `<div>
+                     20220.45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0737bed50ed5e8e75d30a2ed5fbd6db = L.marker(
+                [41.43048282442007, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_1743a36ce6ecbaeae0848efe07a9b905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b29ae286aa696c3a4fd46b792166adc = $(`<div id="html_9b29ae286aa696c3a4fd46b792166adc" style="width: 100.0%; height: 100.0%;">Avg Rent: 20046.42</div>`)[0];
+                popup_1743a36ce6ecbaeae0848efe07a9b905.setContent(html_9b29ae286aa696c3a4fd46b792166adc);
+            
+        
+
+        marker_d0737bed50ed5e8e75d30a2ed5fbd6db.bindPopup(popup_1743a36ce6ecbaeae0848efe07a9b905)
+        ;
+
+        
+    
+    
+            marker_d0737bed50ed5e8e75d30a2ed5fbd6db.bindTooltip(
+                `<div>
+                     20046.42
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_770873a5da4389bab272508be90b4def = L.marker(
+                [41.4399365161767, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_41cea5c8116f0c193caed97f31bc9771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65908f52c249e4fa162829ff44b155ce = $(`<div id="html_65908f52c249e4fa162829ff44b155ce" style="width: 100.0%; height: 100.0%;">Avg Rent: 18005.75</div>`)[0];
+                popup_41cea5c8116f0c193caed97f31bc9771.setContent(html_65908f52c249e4fa162829ff44b155ce);
+            
+        
+
+        marker_770873a5da4389bab272508be90b4def.bindPopup(popup_41cea5c8116f0c193caed97f31bc9771)
+        ;
+
+        
+    
+    
+            marker_770873a5da4389bab272508be90b4def.bindTooltip(
+                `<div>
+                     18005.75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1c3266e60dfd89759d754f41a9d0028 = L.marker(
+                [41.449390207933334, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_f54dacdc35e163272bb129e203687cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d1f6d7ccfd8540d85fea6ac0a86c6e4 = $(`<div id="html_6d1f6d7ccfd8540d85fea6ac0a86c6e4" style="width: 100.0%; height: 100.0%;">Avg Rent: 14141.81</div>`)[0];
+                popup_f54dacdc35e163272bb129e203687cb0.setContent(html_6d1f6d7ccfd8540d85fea6ac0a86c6e4);
+            
+        
+
+        marker_b1c3266e60dfd89759d754f41a9d0028.bindPopup(popup_f54dacdc35e163272bb129e203687cb0)
+        ;
+
+        
+    
+    
+            marker_b1c3266e60dfd89759d754f41a9d0028.bindTooltip(
+                `<div>
+                     14141.81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d48aefedfc26a3365b7f786fb597e1f = L.marker(
+                [41.45884389968997, 2.1841170938380094],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_8abdedd68d3e1ba917c0478b2be8e3d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73ed3d46dd9df8377a440c3ac3ea729c = $(`<div id="html_73ed3d46dd9df8377a440c3ac3ea729c" style="width: 100.0%; height: 100.0%;">Avg Rent: 12165.94</div>`)[0];
+                popup_8abdedd68d3e1ba917c0478b2be8e3d3.setContent(html_73ed3d46dd9df8377a440c3ac3ea729c);
+            
+        
+
+        marker_2d48aefedfc26a3365b7f786fb597e1f.bindPopup(popup_8abdedd68d3e1ba917c0478b2be8e3d3)
+        ;
+
+        
+    
+    
+            marker_2d48aefedfc26a3365b7f786fb597e1f.bindTooltip(
+                `<div>
+                     12165.94
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ad56e6240c7375f1f40ce703a365cf1 = L.marker(
+                [41.38321436563687, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_ebecc9f076bac5107752fb18a73d7e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4272b50b2daffd4d323cef27f9dc77d = $(`<div id="html_d4272b50b2daffd4d323cef27f9dc77d" style="width: 100.0%; height: 100.0%;">Avg Rent: 19461.24</div>`)[0];
+                popup_ebecc9f076bac5107752fb18a73d7e64.setContent(html_d4272b50b2daffd4d323cef27f9dc77d);
+            
+        
+
+        marker_0ad56e6240c7375f1f40ce703a365cf1.bindPopup(popup_ebecc9f076bac5107752fb18a73d7e64)
+        ;
+
+        
+    
+    
+            marker_0ad56e6240c7375f1f40ce703a365cf1.bindTooltip(
+                `<div>
+                     19461.24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea5930172302769fda52bf6948c54833 = L.marker(
+                [41.392668057393514, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_3652e9994cd1bfd050b620e69e45ce87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c69c72f28d82cf8f3c50098966453a2 = $(`<div id="html_4c69c72f28d82cf8f3c50098966453a2" style="width: 100.0%; height: 100.0%;">Avg Rent: 24304.59</div>`)[0];
+                popup_3652e9994cd1bfd050b620e69e45ce87.setContent(html_4c69c72f28d82cf8f3c50098966453a2);
+            
+        
+
+        marker_ea5930172302769fda52bf6948c54833.bindPopup(popup_3652e9994cd1bfd050b620e69e45ce87)
+        ;
+
+        
+    
+    
+            marker_ea5930172302769fda52bf6948c54833.bindTooltip(
+                `<div>
+                     24304.59
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb159546b3e47404501dcad139af6595 = L.marker(
+                [41.402121749150155, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_d55bb68ea45036006ad4c0aa1795e3cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea88fe88edb6bdc3c9992c96f135a2e = $(`<div id="html_aea88fe88edb6bdc3c9992c96f135a2e" style="width: 100.0%; height: 100.0%;">Avg Rent: 22462.39</div>`)[0];
+                popup_d55bb68ea45036006ad4c0aa1795e3cc.setContent(html_aea88fe88edb6bdc3c9992c96f135a2e);
+            
+        
+
+        marker_bb159546b3e47404501dcad139af6595.bindPopup(popup_d55bb68ea45036006ad4c0aa1795e3cc)
+        ;
+
+        
+    
+    
+            marker_bb159546b3e47404501dcad139af6595.bindTooltip(
+                `<div>
+                     22462.39
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ed3df15f4507adeb930e769040d6d37 = L.marker(
+                [41.41157544090679, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_8b81df9ac323be699a72a8657c7da64c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62d48e656dcd0676106391d82bd3bd3 = $(`<div id="html_d62d48e656dcd0676106391d82bd3bd3" style="width: 100.0%; height: 100.0%;">Avg Rent: 20538.67</div>`)[0];
+                popup_8b81df9ac323be699a72a8657c7da64c.setContent(html_d62d48e656dcd0676106391d82bd3bd3);
+            
+        
+
+        marker_0ed3df15f4507adeb930e769040d6d37.bindPopup(popup_8b81df9ac323be699a72a8657c7da64c)
+        ;
+
+        
+    
+    
+            marker_0ed3df15f4507adeb930e769040d6d37.bindTooltip(
+                `<div>
+                     20538.67
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63f023cfd4cf5663238d41c8d42ee4bf = L.marker(
+                [41.42102913266343, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_19566f5b3d73145f8c13db02a384f8bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a403c5d57a7f5e8fcf83a47f6311f569 = $(`<div id="html_a403c5d57a7f5e8fcf83a47f6311f569" style="width: 100.0%; height: 100.0%;">Avg Rent: 19281.77</div>`)[0];
+                popup_19566f5b3d73145f8c13db02a384f8bc.setContent(html_a403c5d57a7f5e8fcf83a47f6311f569);
+            
+        
+
+        marker_63f023cfd4cf5663238d41c8d42ee4bf.bindPopup(popup_19566f5b3d73145f8c13db02a384f8bc)
+        ;
+
+        
+    
+    
+            marker_63f023cfd4cf5663238d41c8d42ee4bf.bindTooltip(
+                `<div>
+                     19281.77
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fead08327c63ffeaa2835d86ec22d08 = L.marker(
+                [41.43048282442007, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_15ee8fde677ac0599c6b0ae66fc1c923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2d193701df30776d992af76f08407a0 = $(`<div id="html_f2d193701df30776d992af76f08407a0" style="width: 100.0%; height: 100.0%;">Avg Rent: 21170.25</div>`)[0];
+                popup_15ee8fde677ac0599c6b0ae66fc1c923.setContent(html_f2d193701df30776d992af76f08407a0);
+            
+        
+
+        marker_9fead08327c63ffeaa2835d86ec22d08.bindPopup(popup_15ee8fde677ac0599c6b0ae66fc1c923)
+        ;
+
+        
+    
+    
+            marker_9fead08327c63ffeaa2835d86ec22d08.bindTooltip(
+                `<div>
+                     21170.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c817b202021ae90190baf22cbb81343 = L.marker(
+                [41.4399365161767, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_a497f3921d8005acfdbbab6e7007e31a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfffcf2706e7935a4f9d6c533e563bcf = $(`<div id="html_dfffcf2706e7935a4f9d6c533e563bcf" style="width: 100.0%; height: 100.0%;">Avg Rent: 20305.23</div>`)[0];
+                popup_a497f3921d8005acfdbbab6e7007e31a.setContent(html_dfffcf2706e7935a4f9d6c533e563bcf);
+            
+        
+
+        marker_0c817b202021ae90190baf22cbb81343.bindPopup(popup_a497f3921d8005acfdbbab6e7007e31a)
+        ;
+
+        
+    
+    
+            marker_0c817b202021ae90190baf22cbb81343.bindTooltip(
+                `<div>
+                     20305.23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ee78542b6eef546f54d9ba13cc30093 = L.marker(
+                [41.449390207933334, 2.1950990693545758],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_e2cae9a192690231c118fb8d46dd4d73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfe15da3d426cab5cfaee07a373a9081 = $(`<div id="html_cfe15da3d426cab5cfaee07a373a9081" style="width: 100.0%; height: 100.0%;">Avg Rent: 14639.8</div>`)[0];
+                popup_e2cae9a192690231c118fb8d46dd4d73.setContent(html_cfe15da3d426cab5cfaee07a373a9081);
+            
+        
+
+        marker_6ee78542b6eef546f54d9ba13cc30093.bindPopup(popup_e2cae9a192690231c118fb8d46dd4d73)
+        ;
+
+        
+    
+    
+            marker_6ee78542b6eef546f54d9ba13cc30093.bindTooltip(
+                `<div>
+                     14639.8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a91c813cbda82938d023f342b9426b59 = L.marker(
+                [41.392668057393514, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_fa12a6bd725a82733f5076a60ba354fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f743284588d6282bcfc2ce2c1531320a = $(`<div id="html_f743284588d6282bcfc2ce2c1531320a" style="width: 100.0%; height: 100.0%;">Avg Rent: 24952.36</div>`)[0];
+                popup_fa12a6bd725a82733f5076a60ba354fd.setContent(html_f743284588d6282bcfc2ce2c1531320a);
+            
+        
+
+        marker_a91c813cbda82938d023f342b9426b59.bindPopup(popup_fa12a6bd725a82733f5076a60ba354fd)
+        ;
+
+        
+    
+    
+            marker_a91c813cbda82938d023f342b9426b59.bindTooltip(
+                `<div>
+                     24952.36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23953da70f4a6341ab7dcdb8666faed6 = L.marker(
+                [41.402121749150155, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_c8884df4bbea620da709fa7b7b5a2d9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bdee7843b22f4550170eff820591d3f = $(`<div id="html_0bdee7843b22f4550170eff820591d3f" style="width: 100.0%; height: 100.0%;">Avg Rent: 22658.62</div>`)[0];
+                popup_c8884df4bbea620da709fa7b7b5a2d9c.setContent(html_0bdee7843b22f4550170eff820591d3f);
+            
+        
+
+        marker_23953da70f4a6341ab7dcdb8666faed6.bindPopup(popup_c8884df4bbea620da709fa7b7b5a2d9c)
+        ;
+
+        
+    
+    
+            marker_23953da70f4a6341ab7dcdb8666faed6.bindTooltip(
+                `<div>
+                     22658.62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db1f70b28a97cdbfdf480115479f6ef0 = L.marker(
+                [41.41157544090679, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_e12a2b35b7c6b45dc1a90d9a1fdeacfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26ff908ca44db13075ecd524f18c3b0d = $(`<div id="html_26ff908ca44db13075ecd524f18c3b0d" style="width: 100.0%; height: 100.0%;">Avg Rent: 19594.18</div>`)[0];
+                popup_e12a2b35b7c6b45dc1a90d9a1fdeacfe.setContent(html_26ff908ca44db13075ecd524f18c3b0d);
+            
+        
+
+        marker_db1f70b28a97cdbfdf480115479f6ef0.bindPopup(popup_e12a2b35b7c6b45dc1a90d9a1fdeacfe)
+        ;
+
+        
+    
+    
+            marker_db1f70b28a97cdbfdf480115479f6ef0.bindTooltip(
+                `<div>
+                     19594.18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb57a966e468adc46a68bb92871438e9 = L.marker(
+                [41.42102913266343, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_1bac67abcbb5414c17ad3ede61447501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d1e9f1579619cfb4d2fde0e864a0df7 = $(`<div id="html_9d1e9f1579619cfb4d2fde0e864a0df7" style="width: 100.0%; height: 100.0%;">Avg Rent: 17195.38</div>`)[0];
+                popup_1bac67abcbb5414c17ad3ede61447501.setContent(html_9d1e9f1579619cfb4d2fde0e864a0df7);
+            
+        
+
+        marker_cb57a966e468adc46a68bb92871438e9.bindPopup(popup_1bac67abcbb5414c17ad3ede61447501)
+        ;
+
+        
+    
+    
+            marker_cb57a966e468adc46a68bb92871438e9.bindTooltip(
+                `<div>
+                     17195.38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42160f791e22a8ed27a0ee1fe32b6fdf = L.marker(
+                [41.43048282442007, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_136818bc9566f672a44f902ef87c9680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cebcc5d577b282482a4d92014f7feee = $(`<div id="html_6cebcc5d577b282482a4d92014f7feee" style="width: 100.0%; height: 100.0%;">Avg Rent: 13630.48</div>`)[0];
+                popup_136818bc9566f672a44f902ef87c9680.setContent(html_6cebcc5d577b282482a4d92014f7feee);
+            
+        
+
+        marker_42160f791e22a8ed27a0ee1fe32b6fdf.bindPopup(popup_136818bc9566f672a44f902ef87c9680)
+        ;
+
+        
+    
+    
+            marker_42160f791e22a8ed27a0ee1fe32b6fdf.bindTooltip(
+                `<div>
+                     13630.48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_901b913e0c10000803a81864887dac14 = L.marker(
+                [41.4399365161767, 2.2060810448711425],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_496334078b4a23400af3f93ccfb8d1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c6d20d98a53589241d44296fa914d65 = $(`<div id="html_6c6d20d98a53589241d44296fa914d65" style="width: 100.0%; height: 100.0%;">Avg Rent: 16106.76</div>`)[0];
+                popup_496334078b4a23400af3f93ccfb8d1e7.setContent(html_6c6d20d98a53589241d44296fa914d65);
+            
+        
+
+        marker_901b913e0c10000803a81864887dac14.bindPopup(popup_496334078b4a23400af3f93ccfb8d1e7)
+        ;
+
+        
+    
+    
+            marker_901b913e0c10000803a81864887dac14.bindTooltip(
+                `<div>
+                     16106.76
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3d313a3fffb2ef9bed9a302c597c7ee = L.marker(
+                [41.41157544090679, 2.21706302038771],
+                {}
+            ).addTo(map_4a4084c916f8b63dafa07aea66705d9b);
+        
+    
+        var popup_6391af584caeea0de99997de2b0e333a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef293df1e6e11141a389de6a30bccfd = $(`<div id="html_0ef293df1e6e11141a389de6a30bccfd" style="width: 100.0%; height: 100.0%;">Avg Rent: 16964.52</div>`)[0];
+                popup_6391af584caeea0de99997de2b0e333a.setContent(html_0ef293df1e6e11141a389de6a30bccfd);
+            
+        
+
+        marker_d3d313a3fffb2ef9bed9a302c597c7ee.bindPopup(popup_6391af584caeea0de99997de2b0e333a)
+        ;
+
+        
+    
+    
+            marker_d3d313a3fffb2ef9bed9a302c597c7ee.bindTooltip(
+                `<div>
+                     16964.52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
