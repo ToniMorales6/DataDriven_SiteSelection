@@ -2,9 +2,7 @@
 
 ## Librerias requeridas
 
-## Instalación de Dependencias
-
-Para instalar las dependencias necesarias, puedes los siguientes siguiente comandos:
+Para instalar las librerias necesarias, puedes los siguientes siguiente comandos:
 
 ```bash
 pip3 install geopandas
@@ -33,3 +31,9 @@ pip3 install seaborn
 - [heat_map.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Capacidad%20Econ%C3%B3mica/Mapas/heat_map.html)
 
 - [average_rent.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Capacidad%20Econ%C3%B3mica/Mapas/average_rent.html)
+
+### Número de Guarderías
+
+- [heat_map.html](https://tonimorales6.github.io/DataDriven_SiteSelection/N%C3%BAmero%20de%20Guarderias/Mapas/heat_map.html)
+
+- [map_with_counts.html](https://tonimorales6.github.io/DataDriven_SiteSelection/N%C3%BAmero%20de%20Guarderias/Mapas/map_with_counts.html)
