@@ -4,9 +4,9 @@ import geopandas as gpd
 from shapely.geometry import Point
 import matplotlib.pyplot as plt
 
-puntos = gpd.read_file('hundredpoints.geojson')
+puntos = gpd.read_file('Áreas Verdes/hundredpoints.geojson')
 
-parques = pd.read_csv('centroides_zonas_verdes.csv', encoding='utf-8')
+parques = pd.read_csv('Áreas Verdes/centroides_zonas_verdes.csv', encoding='utf-8')
 parques_gdf = gpd.GeoDataFrame(parques, 
                                geometry=gpd.points_from_xy(parques['longitud'], parques['latitud']),
                                crs="EPSG:4326")
@@ -59,9 +59,9 @@ for idx, row in puntos.iterrows():
 
 colormap.add_to(mapa)
 
-mapa.save('mapa_con_ZonasVerdes.html')
+mapa.save('Áreas Verdes/Mapas/mapa_con_ZonasVerdes.html')
 
-puntos.to_csv('Puntuacion_Zonas_Verdes.csv')
+puntos.to_csv('Áreas Verdes/Resultado/Puntuacion_Zonas_Verdes.csv')
 
 print("Mapa guardado en 'mapa_con_ZonasVerdes.html'")
 print("GeoDataFrame guardado en 'Puntuacion_Zonas_Verdes.geojson'")

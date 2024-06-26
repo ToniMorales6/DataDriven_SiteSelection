@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 
-resultados_df = pd.read_csv('Puntuacion_Zonas_Verdes.csv')
+resultados_df = pd.read_csv('Áreas Verdes/Resultado/Puntuacion_Zonas_Verdes.csv')
 
 # Función para extraer longitud y latitud de la columna 'geometry'
 def extract_coordinates(geometry):
@@ -20,7 +20,7 @@ plt.hist(resultados_df['puntuacion'], bins=10, color='skyblue', edgecolor='black
 plt.title('Distribución de las Puntuaciones de Zonas Verdes')
 plt.xlabel('Puntuación')
 plt.ylabel('Frecuencia')
-plt.savefig('histograma_puntuaciones.png')
+plt.savefig('Áreas Verdes/Imagenes/histograma_puntuaciones.png')
 plt.show()
 
 # Gráfico con los 104 puntos con colores basados en la puntuación
@@ -30,7 +30,7 @@ plt.colorbar(sc, label='Puntuación')
 plt.title('Puntos Georreferenciados y sus Puntuaciones')
 plt.xlabel('Longitud')
 plt.ylabel('Latitud')
-plt.savefig('distribucion_puntuaciones.png')
+plt.savefig('Áreas Verdes/Imagenes/distribucion_puntuaciones.png')
 plt.show()
 
 print("Gráficas guardadas como 'histograma_puntuaciones.png' y 'distribucion_puntuaciones.png'")

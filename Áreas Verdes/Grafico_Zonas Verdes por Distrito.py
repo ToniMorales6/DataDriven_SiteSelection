@@ -11,14 +11,14 @@ def extract_coordinates(geometry):
         return float(match.group(1)), float(match.group(2))
     return None, None
 
-geojson_path = 'BarcelonaCiutat_Districtes.csv'
+geojson_path = 'Áreas Verdes/BarcelonaCiutat_Districtes.csv'
 distritos_df = pd.read_csv(geojson_path)
 
 # Convertir la columna de geometría WGS84 a objetos geométricos
 distritos_df['geometry'] = distritos_df['geometria_wgs84'].apply(wkt.loads)
 gdf_distritos = gpd.GeoDataFrame(distritos_df, geometry='geometry', crs="EPSG:4326")
 
-file_path = 'Puntuacion_Zonas_Verdes.csv'
+file_path = 'Áreas Verdes/Resultado/Puntuacion_Zonas_Verdes.csv'
 data = pd.read_csv(file_path)
 
 # Extraer las coordenadas de la columna 'geometry'
@@ -42,6 +42,6 @@ plt.title('Número de Zonas Verdes por Distrito en Barcelona')
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-plt.savefig('zonas_verdes_por_distrito.png')
+plt.savefig('Áreas Verdes/Imagenes/zonas_verdes_por_distrito.png')
 
 plt.show()

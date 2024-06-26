@@ -1,7 +1,7 @@
 import pandas as pd
 import folium
 
-file_path = 'centroides_zonas_verdes.csv'
+file_path = 'Áreas Verdes/centroides_zonas_verdes.csv'
 df = pd.read_csv(file_path)
 
 # Crear un mapa centrado en la primera coordenada del dataset
@@ -15,4 +15,4 @@ for _, row in df.iterrows():
         icon=folium.Icon(color='green')
     ).add_to(mapa)
 
-mapa.save('mapa_solo_zonas_verdes.html')
+mapa.save('Áreas Verdes/Mapas/mapa_solo_zonas_verdes.html')
