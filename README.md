@@ -16,6 +16,7 @@ pip3 install folium
 pip3 install plotly
 pip3 install scikit-learn
 pip3 install seaborn
+pip3 install nbformat --upgrade #necesario para visualizar algun grafico
 ```
 ## Enlaces a los Mapas
 
