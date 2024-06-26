@@ -20,6 +20,13 @@ pip3 install nbformat --upgrade #necesario para visualizar algun grafico
 ```
 ## Enlaces a los Mapas
 
+### Indicador Global
+- [heat_map_total_score.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Indicador%20Final/Mapas/heat_map_total_score.html)
+
+- [map_with_total_score.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Indicador%20Final/Mapas/map_with_total_score.html)
+
+- [puntoconrentamasalta.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Indicador%20Final/Mapas/puntoconrentamasalta.html)
+
 ### Transporte público
 - [0_mapa_transporte_publico_bcn_except_bus.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Transporte%20Publico/Mapas/0_mapa_transporte_publico_bcn_except_bus.html)
 
