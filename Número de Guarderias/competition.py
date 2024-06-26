@@ -69,7 +69,7 @@ refpoints['competencia_score'] = refpoints['count_within_2km'].apply(lambda x: 2
 
 puntaje = refpoints[['geometry', 'competencia_score']]
 
-puntaje.to_csv('Número de Guarderias\Mapas\competitionpoints.csv')
+puntaje.to_csv('Número de Guarderias\Resultado\competitionpoints.csv')
 
 
 # Plot de resultados
