@@ -2,7 +2,7 @@ import pandas as pd
 import geopandas as gpd
 
 # Ruta al archivo CSV cargado
-ruta_csv = 'opendatabcn_cultura_parcs-i-jardins.csv'
+ruta_csv = 'Áreas Verdes/opendatabcn_cultura_parcs-i-jardins.csv'
 
 # Leer el archivo CSV con la codificación detectada
 parques = pd.read_csv(ruta_csv, encoding= 'utf-16')
@@ -30,7 +30,7 @@ for col in extra_columns:
     df_centroides[col] = gdf_grouped[col].first().values
 
 # Guardar el resultado en un nuevo archivo CSV
-output_csv = 'centroides_zonas_verdes.csv'
+output_csv = 'Áreas Verdes/centroides_zonas_verdes.csv'
 df_centroides.to_csv(output_csv, index=False, encoding='utf-8')
 
 print(f"Archivo guardado en '{output_csv}'")
