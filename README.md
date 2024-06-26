@@ -41,6 +41,8 @@ pip3 install nbformat --upgrade #necesario para visualizar algun grafico
 
 - [average_rent.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Capacidad%20Econ%C3%B3mica/Mapas/average_rent.html)
 
+- [mapa_secciones_censales.html](https://tonimorales6.github.io/DataDriven_SiteSelection/Capacidad%20Econ%C3%B3mica/Mapas/mapa_secciones_censales.html)
+
 ### Número de Guarderías
 - [map_with_competencia_score.html](https://tonimorales6.github.io/DataDriven_SiteSelection/N%C3%BAmero%20de%20Guarderias/Mapas/map_with_competencia_score.html)
 
