@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import folium
 from folium.plugins import HeatMap
 
-censo = pd.read_csv('censolocales.csv')
+censo = pd.read_csv('Número de Guarderias\censolocales.csv')
 
 nulos = censo.isnull().sum()
 
@@ -25,7 +25,7 @@ censofilt = censo[censo['Nom_Local'].str.contains('guarderia|llar d\'infants|gua
 censofilt = censofilt[censofilt['Nom_Activitat'] == 'Ensenyament' ]
 
 
-censofilt[['Nom_Barri','Nom_Districte','Latitud', 'Longitud', 'Nom_Local']].to_csv('guarderiasfinal.csv')
+censofilt[['Nom_Barri','Nom_Districte','Latitud', 'Longitud', 'Nom_Local']].to_csv('Número de Guarderias\guarderiasfinal.csv')
 
 # Agrupar por 'Nom_Districte' y contar las ocurrencias
 districte_counts = censofilt['Nom_Districte'].value_counts().sort_index()
@@ -39,7 +39,7 @@ plt.ylabel('total')
 plt.xticks(rotation=45)
 plt.show()
 
-refpoints = gpd.read_file('hundredpoints.geojson')
+refpoints = gpd.read_file('Número de Guarderias\hundredpoints.geojson')
 
 geometry = [Point(xy) for xy in zip(censofilt['Longitud'], censofilt['Latitud'])]
 gdf_censofilt = gpd.GeoDataFrame(censofilt, geometry=geometry)
@@ -69,7 +69,7 @@ refpoints['competencia_score'] = refpoints['count_within_2km'].apply(lambda x: 2
 
 puntaje = refpoints[['geometry', 'competencia_score']]
 
-puntaje.to_csv('competitionpoints.csv')
+puntaje.to_csv('Número de Guarderias\Mapas\competitionpoints.csv')
 
 
 # Plot de resultados
@@ -95,7 +95,7 @@ for idx, row in refpoints.iterrows():
         tooltip=row["count_within_2km"]
     ).add_to(m)
 
-m.save('map_with_counts.html')
+m.save('Número de Guarderias\Mapas\map_with_counts.html')
 
 m
 
@@ -103,7 +103,7 @@ heat_data = [[row.geometry.y, row.geometry.x, row['count_within_2km']] for idx, 
 m_heat = folium.Map(location=map_center, zoom_start=12)
 HeatMap(heat_data).add_to(m_heat)
 
-m_heat.save('heat_map.html')
+m_heat.save('Número de Guarderias\Mapas\heat_map.html')
 
 # Display the heat map
 m_heat
@@ -156,7 +156,7 @@ heat_data = [[row.geometry.y, row.geometry.x, row['count_within_2km']] for idx, 
 m_heat = folium.Map(location=map_center, zoom_start=12)
 HeatMap(heat_data).add_to(m_heat)
 
-m_heat.save('heat_map2.html')
+m_heat.save('Número de Guarderias\Mapas\heat_map2.html')
 
 m_heat
 
@@ -199,7 +199,7 @@ for idx, row in puntaje.iterrows():
 
 colormap.add_to(m)
 
-m.save('map_with_competencia_score.html')
+m.save('Número de Guarderias\Mapas\map_with_competencia_score.html')
 
 m
 
@@ -207,6 +207,6 @@ heat_data = [[row.geometry.y, row.geometry.x, row['competencia_score']] for idx,
 m_heat = folium.Map(location=map_center, zoom_start=12)
 HeatMap(heat_data).add_to(m_heat)
 
-m_heat.save('heat_mappuntaje.html')
+m_heat.save('Número de Guarderias\Mapas\heat_mappuntaje.html')
 
 m_heat
