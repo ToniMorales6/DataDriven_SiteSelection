@@ -25,7 +25,7 @@ censofilt = censo[censo['Nom_Local'].str.contains('guarderia|llar d\'infants|gua
 censofilt = censofilt[censofilt['Nom_Activitat'] == 'Ensenyament' ]
 
 
-censofilt[['Nom_Barri','Nom_Districte','Latitud', 'Longitud', 'Nom_Local']].to_csv('Número de Guarderias\guarderiasfinal.csv')
+censofilt[['Nom_Barri','Nom_Districte','Latitud', 'Longitud', 'Nom_Local']].to_csv('Número de Guarderias\Resultado\guarderiasfinal.csv')
 
 # Agrupar por 'Nom_Districte' y contar las ocurrencias
 districte_counts = censofilt['Nom_Districte'].value_counts().sort_index()
