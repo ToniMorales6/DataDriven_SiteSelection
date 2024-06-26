@@ -2,7 +2,7 @@
 
 Este proyecto se centra en la selección de ubicaciones basada en datos para una guardería en la ciudad de Barcelona. El objetivo principal es utilizar datos demográficos y espaciales para identificar las mejores ubicaciones posibles. Se analizan varios factores clave como la densidad de niños, la competencia de guarderías existentes, las áreas verdes, el transporte público y la capacidad económica de las familias. Se han evaluado 104 puntos de referencia en la ciudad, aplicando un radio de 750 metros para cada uno. El modelo desarrollado no solo es aplicable a guarderías, sino que también puede extenderse a otros servicios y equipamientos urbanos. Este repositorio proporciona todo el código y las bases de datos necesarias, permitiendo a otros adaptar el análisis a diferentes ubicaciones y contextos.
 
-## Diagrama
+## Diagrama Indicador Final
 
 ![Diagrama](https://github.com/ToniMorales6/DataDriven_SiteSelection/blob/main/Indicador%20Final/Diagrama/Diagrama.PNG)
 
